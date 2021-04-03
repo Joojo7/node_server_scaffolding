@@ -1,5 +1,5 @@
 const config = {
-  ENDPOINT: '/path/endpoint-name',
+  ENDPOINT: '/concern/endpoint-name',
 };
 
 module.exports = config;
