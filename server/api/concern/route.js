@@ -14,7 +14,7 @@ const router = express.Router({ mergeParams: true });
 const controller = require('./controller');
 
 router.get('/', async function (req, res) {
-  const result = await controller.getFunc(
+  const result = controller.getFunc(
     req.body.message.parameter1,
     req.body.message.parameter2
   );

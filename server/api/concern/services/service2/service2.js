@@ -5,8 +5,8 @@
  *
  */
 
-async function serviceFuntion1(payload) {
-  return 'This is service 2';
+function serviceFunction2(parameter1, parameter2) {
+  return `${parameter1} & ${parameter2} are now moving through service 2.`;
 }
 
-module.exports = { navMassage, digest };
+module.exports = { serviceFunction2 };
